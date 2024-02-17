@@ -1,5 +1,6 @@
 name: Checkout
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
   checkout-action:
